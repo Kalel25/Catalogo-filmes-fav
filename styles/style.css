@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --primary-font: 'Lexend', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+
+    --primary-font-size: 40px;
+    --secondary-font-size: 24px;
+}
+
+body {
+    background-color: rgb(17, 17, 18);
+    color: whitesmoke;
+}
+
+
+.title-name {
+    padding: 2% 0% 2%;
+    text-align: center;
+    font-size: var(--primary-font-size);
+    font-family: var(--primary-font);
+}
+
+
+figure.poster {
+    max-width: 280px;
+    max-height: 430px;
+    object-fit: cover;
+    transition: 0.65s ease;
+}
+
+
+.poster img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.poster:hover {
+    transform: scale(1.1);
+    transition: 0.65s ease;
+}
+
+
+.poster-name {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #dddcdc;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+}
+
+
+.poster-link {
+    text-decoration: none;
+}
+
+
+.catalogue-div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.catalogue-name {
+    font-size: var(--secondary-font-size);
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    font-family: var(--primary-font);
+}
+
+
+.catalogue {
+    margin: 0% 10% 7% 10%;
+    display: flex;
+    gap: 85px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.baseboard {
+    text-align: center;
+    color: #dddcdc;
+    background-color: rgb(66, 66, 66);
+    margin-top: 4.45%;
+    padding: 1% 0% 1% 0%;
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    font-weight: 450;
+}
+
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.about__section {
+    font-family: var(--secondary-font);
+    margin: 30px 30px 0px 30px ;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+
+
+.picture {
+    margin: 15px 0px 0px 15px;
+    max-width: 525px;
+    height: 675px;
+    align-self: flex-start ;
+
+}
+
+
+.title-movie {
+    font-size: var(--primary-font-size);
+    font-family: var(--primary-font);
+    align-self: center;
+}
+
+
+.genre {
+    font-size: var(--secondary-font-size);  
+    margin-top: 10px;
+}
+
+
+.synopsis {
+    font-size: var(--secondary-font-size); 
+}
+
+
+.details {
+    margin-top:20px;
+    font-size: 30px;
+}
+
+
+.details__div {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-self: start;
+}
+
+
+.details__list {
+    font-size: var(--secondary-font-size);
+}
+
+
+.comentary {
+    align-self: center;
+    text-align: center;
+    width: 1100px;
+    margin: 7% 0% 7% 0%;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+}
+
+
+.return-btn {
+    padding: 15px 50px 15px 50px;
+    margin: 0% 0% 10% 5%;
+    border-radius: 3px  ;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px whitesmoke solid;
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    transition: all 0.28s ease;
+}
+
+
+.return-btn:hover{
+  font-size: 26px;
+  padding: 20px 55px 20px 55px;
+  border-radius: 7px;
+}
+
+/* 200 linhas, perfeccionismo */
