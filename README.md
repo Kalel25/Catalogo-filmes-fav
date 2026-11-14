@@ -1,7 +1,7 @@
 # Catálogo de filmes
 <br>
 
-## 🚧 Ainda em andamento
+## 🚧 Em andamento
 <p>Mais atualizações serão adicionadas em breve</p>
 <h4>Próximas atualizações</h4>
 <li>Maior responsividade</li>
@@ -10,7 +10,7 @@
 <br>
 
 ## 🪶 Sobre
-<p>Um catálogo com meus filmes, animes e séries favoritos</p>
+<p>Um catálogo com meus filmes, animações e séries favoritos</p>
 <br>
 
 ## 🚀 Tecnologias
