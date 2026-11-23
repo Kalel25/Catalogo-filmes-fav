@@ -31,7 +31,7 @@ body {
 .catalogue {
     margin: -1.5% 9% 7% 9%;
     display: flex;
-    gap: 85px;
+    gap: 89px;
     flex-wrap: wrap;
     justify-content: center;
 }
