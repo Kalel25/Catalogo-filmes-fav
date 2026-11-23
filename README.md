@@ -15,8 +15,8 @@
 
 ## 🚀 Tecnologias
 <div>
-   <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/960px-HTML5_logo_and_wordmark.svg.png" alt="HTML" width="50"></a>
-   <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/500px-CSS3_logo_and_wordmark.svg.png" alt="CSS" width="35,9"></a>
+   <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/960px-HTML5_logo_and_wordmark.svg.png" alt="HTML" height="57.5"></a>
+   <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="https://img.icons8.com/?size=100&id=3BTBsJs5myRy&format=png&color=000000" alt="CSS" height="50"></a>
 </div>
 <br>
 
