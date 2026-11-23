@@ -11,7 +11,7 @@
     --secondary-font: 'Montserrat', sans-serif;
 
     --primary-font-size: 2.3rem;
-    --secondary-font-size: 1.5rem;
+    --secondary-font-size: 1.7rem;
     --terciary-font-size: 1.25rem;
 }
 
@@ -22,14 +22,47 @@ body {
 
 
 .title-name {
-    padding: 2% 0% 2%;
+    margin-top: 4%;
     text-align: center;
     font-size: var(--primary-font-size);
     font-family: var(--primary-font);
 }
 
+.catalogue {
+    margin: -1.5% 9% 7% 9%;
+    display: flex;
+    gap: 85px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-figure.poster {
+
+.catalogue-name {
+    font-size: var(--secondary-font-size);
+    text-align: center;
+    margin: 3.5%;
+    font-family: var(--primary-font);
+}
+
+
+.catalogue__div {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+
+.poster {  
+    text-decoration: none;
+    text-align: center;
+    font-size: var(--terciary-font-size);
+    color: #dddcdc;
+    font-weight: 400;
+    font-family: var(--secondary-font);   
+    border-radius: 5px;
+    width: 100%;
+    aspect-ratio: 2 / 3;
     max-width: 280px;
     max-height: 430px;
     object-fit: cover;
@@ -37,56 +70,15 @@ figure.poster {
 }
 
 
-.poster img {
-    border-radius: 5px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
 .poster:hover {
-    transform: scale(1.1);
+    transform: scale(1.065);
     transition: 0.65s ease;
 }
 
 
-.poster-name {
-    text-align: center;
-    margin-top: 5px;
-    font-size: var(--terciary-font-size);
-    color: #dddcdc;
-    font-weight: 400;
-    font-family: var(--secondary-font);
-}
-
-
-.poster-link {
-    text-decoration: none;
-}
-
-
-.catalogue-div {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-
-.catalogue-name {
-    font-size: var(--secondary-font-size);
-    text-align: center;
-    padding: 20px 0px 10px 0px;
-    font-family: var(--primary-font);
-}
-
-
-.catalogue {
-    margin: 0% 10% 7% 10%;
-    display: flex;
-    gap: 85px;
-    flex-wrap: wrap;
-    justify-content: center;
+.poster__name {
+    margin-top: 20px;
+    transition: none;
 }
 
 
@@ -198,7 +190,7 @@ figure.poster {
     }
 
 
-    figure.poster {
+    .poster {
         max-width: 240px;
         max-height: 400px;
     }
